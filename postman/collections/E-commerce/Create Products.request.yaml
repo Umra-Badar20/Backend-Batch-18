@@ -1,0 +1,23 @@
+$kind: http-request
+url: "{{URL}}/api/product/create"
+method: POST
+body:
+  type: formdata
+  content:
+    - type: file
+      key: image
+      src:
+        - /C:/Users/Student/Pictures/Screenshots/Screenshot 2026-10-25 092911.png
+      description: ""
+      disabled: false
+    - type: text
+      key: name
+      value: Lotion
+      description: ""
+      disabled: false
+    - type: text
+      key: desc
+      value: Ponds Lotion
+      description: ""
+      disabled: false
+order: 3000
