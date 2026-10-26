@@ -1,4 +1,0 @@
-$kind: http-request
-url: "{{URL}}/api/product"
-method: GET
-order: 4000
